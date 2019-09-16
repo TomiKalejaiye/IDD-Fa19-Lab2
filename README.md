@@ -28,6 +28,8 @@ Include your responses to the bold questions below. Include snippets of code tha
  
 **e. Include a copy of your Lowly Multimeter code in your lab write-up.**
 
+[Lowly Multimeter Code](https://github.com/TomiKalejaiye/IDD-Fa19-Lab2/blob/master/LowlyMultimeter.ino)
+
 
 ## Part C. Using a time-based digital sensor
 
