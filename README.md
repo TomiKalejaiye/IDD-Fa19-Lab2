@@ -4,7 +4,7 @@ Include your responses to the bold questions below. Include snippets of code tha
 
 ## Part A. Solder your LCD panel
 
-**Take a picture of your soldered panel and add it here!**
+[LCD with soldered pins](https://imgur.com/Hcuumnr.jpg)
 
 ## Part B. Writing to the LCD
 
