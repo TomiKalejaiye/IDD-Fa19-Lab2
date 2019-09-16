@@ -33,7 +33,7 @@ Include your responses to the bold questions below. Include snippets of code tha
 
 ## Part C. Using a time-based digital sensor
 
-**Upload a video of your working rotary encoder here.**
+[![Working Rotary Encoder](http://img.youtube.com/vi/BJTETgxkXLU/0.jpg)](https://www.youtube.com/watch?v=BJTETgxkXLU)
 
 
 ## Part D. Make your Arduino sing!
