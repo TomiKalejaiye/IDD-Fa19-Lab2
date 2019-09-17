@@ -24,6 +24,18 @@
 
  In the "HelloWorld.ino" example code, the command to print "hello, world!" is in the setup() loop on line 55. By simply changing the argument of lcd.print() to "Tomi" I can make the LCD display my name. Then in loop() I write lcd.noDisplay() followed by delay(time), then lcd.display() followed by delay(time). This will make the LCD flash with whatever has been printed to it (in this case my name) being displayed. Changing the arguments of the delay() function calls will determine the frequency of the flashing.
  
+ In the setup():
+ ```
+ lcd.print("Tomi");
+ ```
+ and in the loop():
+ ```
+    lcd.display();
+    delay(500);
+    lcd.noDisplay();
+    delay(500);
+```
+ 
 **e. Include a copy of your Lowly Multimeter code in your lab write-up.**
 
 [![Lowly Multimeter video](http://img.youtube.com/vi/--P7Cqi50Mo/0.jpg)](https://www.youtube.com/watch?v=--P7Cqi50Mo)
