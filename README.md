@@ -1,5 +1,7 @@
 # Digital Timer
 
+By Tomi Kalejaiye (ok93)
+
 ## Part A. Solder your LCD panel
 
 ![LCD with soldered pins](https://imgur.com/Hcuumnr.jpg)
