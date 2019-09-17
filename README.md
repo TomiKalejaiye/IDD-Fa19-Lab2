@@ -1,6 +1,4 @@
 # Digital Timer
- 
-Include your responses to the bold questions below. Include snippets of code that explain what you did. Deliverables are due next Tuesday. Post your lab reports as README.md pages on your GitHub, and post a link to that on your main class hub page.
 
 ## Part A. Solder your LCD panel
 
@@ -28,6 +26,8 @@ Include your responses to the bold questions below. Include snippets of code tha
  
 **e. Include a copy of your Lowly Multimeter code in your lab write-up.**
 
+[![Lowly Multimeter video](http://img.youtube.com/vi/--P7Cqi50Mo/0.jpg)](https://www.youtube.com/watch?v=--P7Cqi50Mo)
+
 [Lowly Multimeter Code](https://github.com/TomiKalejaiye/IDD-Fa19-Lab2/blob/master/LowlyMultimeter.ino)
 
 
@@ -35,16 +35,23 @@ Include your responses to the bold questions below. Include snippets of code tha
 
 [![Working Rotary Encoder](http://img.youtube.com/vi/BJTETgxkXLU/0.jpg)](https://www.youtube.com/watch?v=BJTETgxkXLU)
 
-
 ## Part D. Make your Arduino sing!
 
 **a. How would you change the code to make the song play twice as fast?**
+
+In the setup portion of the example code, the variable noteDuration is calculated by taking one second (1000ms) and dividing it by the note duration for the note type that is to be played. If I instead divide half a second (500ms) by the duration for the same note type, it will be played twice as fast. Therefore in the calculation of noteDuration, simply change 1000 to 500.
  
 **b. What song is playing?**
 
+The Arduino example code plays the famous "Shave and a Haircut, two bits" call and response couplet. Upon updating the code with the notes provided, it plays the Star Wars intro theme.
 
 ## Part E. Make your own timer
 
 **a. Make a short video showing how your timer works, and what happens when time is up!**
 
-**b. Post a link to the completed lab report your class hub GitHub repo.**
+[![Rotary Encoder Countdown Timer](http://img.youtube.com/vi/EvXgpOWEWsE/0.jpg)](https://www.youtube.com/watch?v=EvXgpOWEWsE)
+
+This video shows the operation of my timer. It uses a pushbutton rotary encoder to manually set a time which is displayed on the LCD in seconds. When the button is pressed, a timer begins. When the time is up, a "Game Over!" message is displayed for 5 seconds. My code for this timer can be found [here](https://github.com/TomiKalejaiye/IDD-Fa19-Lab2/blob/master/Timer.ino).
+
+Note: The timer cannot be stopped once it begins counting down, until it finishes, displays the message, and resets. Pushing the button will do nothing until it has reset.
+
