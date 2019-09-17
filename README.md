@@ -39,7 +39,16 @@
 
 **a. How would you change the code to make the song play twice as fast?**
 
-In the setup portion of the example code, the variable noteDuration is calculated by taking one second (1000ms) and dividing it by the note duration for the note type that is to be played. If I instead divide half a second (500ms) by the duration for the same note type, it will be played twice as fast. Therefore in the calculation of noteDuration, simply change 1000 to 500.
+In the setup portion of the example code, the variable noteDuration is calculated by taking one second (1000ms) and dividing it by the note duration for the note type that is to be played. If I instead divide half a second (500ms) by the duration for the same note type, it will be played twice as fast. Therefore in the calculation of noteDuration, simply change 1000 to 500:
+
+```
+int noteDuration = 1000 / noteDurations[thisNote];
+```
+to
+```
+int noteDuration = 500 / noteDurations[thisNote];
+```
+
  
 **b. What song is playing?**
 
